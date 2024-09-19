@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "DVD logo meme - Nana&Nini Bouncing Cat",
+    "version": "1.0",
+    "description": "Cat bouncing around like the DVD logo meme.",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["https://mail.google.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
